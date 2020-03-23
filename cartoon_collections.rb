@@ -26,7 +26,7 @@ def find_the_cheese(array)# code an argument here
   while index < cheese_types.length do
     
     if array.include?(cheese_types[index])
-      cheese_types[index]
+      return cheese_types[index]
       break
     else
       nil
