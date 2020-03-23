@@ -24,7 +24,12 @@ def find_the_cheese(array)# code an argument here
   
   index = 0
   while index < cheese_types.length do
-    if array.include
+    if array.include(cheese_types[i])
+      cheese_types[i]
+      break
+    else
+      nil
+    end
     index += 1 
   end
   
